@@ -20,6 +20,6 @@ public class ArrayListDemo {
         if(ele.isEmpty()){
             System.out.println("Array List is empty");
         }
-
+//test
     }
 }
