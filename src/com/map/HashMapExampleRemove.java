@@ -16,7 +16,7 @@ public class HashMapExampleRemove {
                 value = value + 1;
                 map.replace(str.charAt(i),value);
                 if(value % 2==0){
-                    map.remove()
+                    //map.remove();
                 }
             } else {
                 map.put(str.charAt(i),1);
