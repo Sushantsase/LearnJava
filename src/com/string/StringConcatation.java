@@ -10,6 +10,8 @@ public class StringConcatation {
         System.out.println(ans);
 
         System.out.println(s2.concat(s1));
+        System.out.println(s1 +n);
         System.out.println(s1.concat(s2).concat(String.valueOf(n)));
+        System.out.println(s1.concat(s2)+n);
     }
 }

@@ -9,15 +9,15 @@ public class StringMethods {
 
         String s = "Hello Worlds !";
         System.out.println(s.length());
-//        System.out.println(s);
+       System.out.println(s);
         String str=s.trim();
         System.out.println(str.length());
-//        System.out.println(str);
+       System.out.println(str);
 
         System.out.println(s.charAt(1));
 
-        System.out.println(s.substring(5));
-        System.out.println(s.substring(5,7));
+        System.out.println(s.substring(6));
+        System.out.println(s.substring(6,8));
 
         System.out.println(s.indexOf('p'));
         System.out.println(s.indexOf('W'));

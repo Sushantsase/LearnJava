@@ -13,7 +13,7 @@ public class SortingSearching {
         Arrays.sort(in);
         System.out.println(Arrays.toString(in));
 
-        Arrays.binarySearch(str,"hello");
+        System.out.println(Arrays.binarySearch(str,"hello"));;
         System.out.println(Arrays.binarySearch(str,"javascript"));
     }
 }
